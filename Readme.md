@@ -1,18 +1,33 @@
-#### Projeto desenvolvido com conceitos básicos de typescript
+# Sistema de Banco em TypeScript
 
-### Tecnologias
-- Typescript
+Este projeto consiste em uma simulação de sistema bancário desenvolvida para exercitar e demonstrar o domínio de conceitos fundamentais da Programação Orientada a Objetos (POO) utilizando TypeScript.
 
-### Como rodar o projeto
+O projeto foi estruturado focando na utilização dos 4 fundamentos de POO: Abstração, Herança, Encapsulamento e Polimorfismo.
 
-1 - Clone o repositório
+## Estrutura do Projeto
 
-2 - Instale as dependeências
-    
-    npm install
+* `class/Account.ts`: Classe abstrata pai com a lógica central de depósitos e saques.
+* `class/PeopleAccount.ts`: Especialização para pessoas físicas com identificação por documento.
+* `class/CompanyAccount.ts`: Especialização para contas empresariais com lógica de empréstimo.
+* `class/PremiumAccount.ts`: Especialização com benefícios de depósito e uso de polimorfismo.
+* `app.ts`: Ponto de entrada configurado com cenários de teste para validar todas as funcionalidades e restrições.
 
-3 - Execute o projeto
+## Como rodar o projeto
 
-    npm run dev
+1. Clone o repositório em sua máquina local.
+2. Certifique-se de ter o Node.js instalado.
+3. Instale as dependências executando o comando:
+```bash
+npm install
+
+```
+
+4. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+
+```
+
+
 
 
