@@ -1,11 +1,12 @@
-import { Account } from './Account'
+import { Account } from "./Account";
 
-export class PremiumAccount extends Account{
+export class PremiumAccount extends Account {
 
-    deposit = (deposit: number): void => {
-      if(this.validateStatus()){
-        super.deposit(deposit+10)
-        console.log("Depósito premium realizado!")
-      }  
+  //MÉTODO DE DEPÓSITO PREMIUM + 10 DE BÔNUS
+  deposit = (deposit: number): void => {
+    if (this.validateStatus()) {
+      super.deposit(deposit + 10);
+      console.log("Depósito premium realizado! \n");
     }
+  };
 }
