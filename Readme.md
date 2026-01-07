@@ -30,8 +30,10 @@ npm run dev
 
 ## Créditos
 
-Este projeto é uma resolução de um exercício criado por https://github.com/nathsouzadev 
-Repositório do exércício: https://github.com/digitalinnovationone/desafio01-ts.git
+Este projeto foi desenvolvido como uma resolução para o exercício proposto por [nathsouzadev](https://github.com/nathsouzadev).
+
+* **Repositório original**: [desafio01-ts](https://github.com/digitalinnovationone/desafio01-ts.git)
+
 
 
 
