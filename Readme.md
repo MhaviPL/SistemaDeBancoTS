@@ -1,6 +1,6 @@
 # Sistema de Banco em TypeScript
 
-Este projeto consiste em uma simulação de sistema bancário desenvolvida para exercitar e demonstrar o domínio de conceitos fundamentais da Programação Orientada a Objetos (POO) utilizando TypeScript.
+Este projeto consiste em uma simulação de sistema bancário desenvolvida para exercitar conceitos fundamentais da Programação Orientada a Objetos (POO) utilizando TypeScript.
 
 O projeto foi estruturado focando na utilização dos 4 fundamentos de POO: Abstração, Herança, Encapsulamento e Polimorfismo.
 
