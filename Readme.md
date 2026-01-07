@@ -28,6 +28,11 @@ npm run dev
 
 ```
 
+## Créditos
+
+Este projeto é uma resolução de um exercício criado por https://github.com/nathsouzadev 
+Repositório do exércício: https://github.com/digitalinnovationone/desafio01-ts.git
+
 
 
 
