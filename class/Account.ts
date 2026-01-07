@@ -1,7 +1,7 @@
 export abstract class Account {
   private readonly name: string
   private readonly accountNumber: number
-  protected balance: number = 0
+  private balance: number = 0
   private status: boolean = true
 
   constructor(name: string, accountNumber: number){
@@ -13,7 +13,11 @@ export abstract class Account {
     return this.name
   }
 
-  deposit = (deposit: number): void => {
+  getBalance = (): void => {
+      console.log(this.balance)
+    }
+
+  deposit(deposit: number): void {
     if(this.validateStatus()){
       this.balance += deposit
       console.log('Voce depositou')
@@ -28,10 +32,6 @@ export abstract class Account {
       console.log("Erro ao realizar o Saque!")
     }
     
-  }
-
-  getBalance = (): void => {
-    console.log(this.balance)
   }
 
   protected validateStatus = (): boolean => {

@@ -8,7 +8,7 @@ export class CompanyAccount extends Account {
 
   getLoan = (loan: number): void => {
     if(this.validateStatus()){
-      this.balance += loan
+      this.deposit(loan)
       console.log('Voce pegou um empréstimo!')
     }
   }
