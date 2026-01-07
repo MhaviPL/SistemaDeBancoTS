@@ -44,6 +44,7 @@ export abstract class Account {
     }
 
     return false;
+    //throw new Error("Status Inválido")
   }
 
   //VALIDAÇÃO DE SALDO SUFICIENTE PARA SAQUE
@@ -53,5 +54,6 @@ export abstract class Account {
     }
 
     return false;
+    //throw new Error("Saldo insuficiente")
   }
 }
